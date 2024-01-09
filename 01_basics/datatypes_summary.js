@@ -1,7 +1,7 @@
 /*
 For bases of saving on menu datatypes devided 2 type
-# primitive
-# non primitive
+# primitive = copy show koray
+# Non-primitive = Main change hoy ebong show koray
 
 JavaScript is a dynamically typed language
 */
@@ -40,7 +40,7 @@ const myFunc = function(){
     console.log("Hello World");
 } // function
 
-console.log(typeof(myFunc));
+// console.log(typeof(myFunc));
 
 // ******* Check typeOf to show bellow results ********
 
@@ -58,3 +58,28 @@ console.log(typeof(myFunc));
 
 
 // Doc link: https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++ Memories ++++++++
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Sadik"
+let anotherName = myName
+
+anotherName = "Nazrul"
+
+// console.log(myName);
+// console.log(anotherName);
+
+let userOne = {
+    name: "Shohidul",
+    email: "shohidul@google.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shohidul@youtube.com"
+userTwo.name = "Sadik"
+
+console.log(userTwo);
+console.log(userOne);
