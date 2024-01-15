@@ -18,9 +18,11 @@ console.log(myName.at(3));
 const firstName = "Sadik"
 const lastName = "Nazrul"
 
-const anotherString = "I love my Country"
+const anotherString = new String("I love my Country my love")
 
 // console.log(firstName.concat(',', ' ', lastName));
 // console.log(anotherString.endsWith('Country'));
 // console.log(anotherString.includes("d"));
-console.log(anotherString.indexOf('my'));
+// console.log(anotherString.indexOf('my'));
+// console.log(anotherString.lastIndexOf('love'));
+console.log(anotherString.localeCompare);
