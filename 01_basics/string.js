@@ -26,4 +26,3 @@ const anotherString = new String("I love my Country my love")
 // console.log(anotherString.indexOf('my'));
 // console.log(anotherString.lastIndexOf('love'));
 // console.log(firstName.localeCompare(lastName, 'en', { sensitivity: 'base'}));
-console.log(lastName.match("SE"))
