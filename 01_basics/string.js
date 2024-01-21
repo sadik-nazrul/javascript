@@ -15,8 +15,8 @@ console.log(myName.codePointAt(3));
 console.log(myName.at(3)); 
 */
 
-const firstName = "Sadik"
-const lastName = "Nazrul"
+const firstName = "réservé"
+const lastName = "RESERVE"
 
 const anotherString = new String("I love my Country my love")
 
@@ -25,4 +25,4 @@ const anotherString = new String("I love my Country my love")
 // console.log(anotherString.includes("d"));
 // console.log(anotherString.indexOf('my'));
 // console.log(anotherString.lastIndexOf('love'));
-console.log(anotherString.localeCompare);
+console.log(firstName.localeCompare(lastName, 'en', { sensitivity: 'base'}));
