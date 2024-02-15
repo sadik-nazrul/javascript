@@ -45,16 +45,59 @@ let z = x * y;
 let m = "Sadik"
 let n = 10
 let o = m/n
-console.log(o);
+// console.log(o);
 
+
+
+//******** Js Number Methods ********
 const roll = 102;
 // console.log(roll);
 
+
+//Kono Number ke string e convert korte toString er bebohar kora hoy.
 const serial = new Number(1030);
 // console.log(serial);
+// console.log(serial.toString());
 
-// console.log(serial.toString().length);
-// console.log(serial.toFixed(1));
+
+// Kono number ke sheshe kototuku show korate caile toFixed(2) is perfect for working with money.
+let p = 9.656;
+// console.log(p.toFixed(0));
+// console.log(p.toFixed(2));
+// console.log(p.toFixed(4));
+// console.log(p.toFixed(6));
+
+
+// kono Number data tyopes e koto velue ache dekhte caile amra likhte pari.
+let num = 12345
+// console.log(num.valueOf());
+
+
+//Kono variable ke number e convert korar jonno amra ei 3ta method use korte pari
+// console.log(Number("John"))
+// console.log(Number("10"))
+// console.log(typeof(Number("10.34")))
+
+
+//parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned
+// console.log(parseInt("-10"));
+// console.log(parseInt("-10.33"));
+// console.log(parseInt("10"));
+// console.log(parseInt("10.33"));
+// console.log(parseInt("10 20 30"));
+// console.log(parseInt("10 years"));
+// console.log(parseInt("years 10"));
+
+
+// parseFloat() parses a string and returns a number. Spaces are allowed. Only the first number is returned:
+// console.log(parseFloat("-10"));
+// console.log(parseFloat("-10.33"));
+// console.log(parseFloat("10"));
+// console.log(parseFloat("10.33"));
+// console.log(parseFloat("10 20 30"));
+// console.log(parseFloat("10 years"));
+// console.log(parseFloat("years 10"));
+
 
 const hundreds = 10000000
 // console.log(hundreds.toLocaleString('en-BD'));
